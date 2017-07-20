@@ -60,16 +60,21 @@
 
 还有就是WordPress要求PHP版本为5.2.4以上，所以我们需要调整服务器默认的PHP版本
 
+![1500542822(1).jpg](https://github.com/ChaoZeyi/myWebsite/blob/master/pics/1500542822(1).jpg?raw=true)
+
 还可以修改默认主页设置
+
+![1500542844(1).jpg](https://github.com/ChaoZeyi/myWebsite/blob/master/pics/1500542844(1).jpg?raw=true)
 
 至此，个人主页的框架算是搭好了，直接在网页上访问即可
 
 第一次登录，需要填写一个WordPress基本信息，记住用户名和密码，然后看到如下欢迎页面：
 
-
+![1500543267(1).jpg](https://github.com/ChaoZeyi/myWebsite/blob/master/pics/1500543267(1).jpg?raw=true)
 
 ### FAQ
 
-- 不同的域名解析状态也不一样，像我之前申请的.pub域名，便宜（9/年），注册完之后绑定主机，就可以直接解析成功，在网页中访问；但像我后来注册的域名.xin，那么贵（88/年），要等到实名认证之后，才可以进行解析！
-- ​
+- 不同的域名解析状态也不一样，像我之前申请的.pub域名，便宜（9/年），注册完之后绑定主机，就可以直接解析成功，在网页中访问；但像我后来注册的域名.xin，那么贵（88/年），居然要等到实名认证之后，才可以进行解析！
+
+  ​
 
