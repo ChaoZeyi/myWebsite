@@ -40,17 +40,31 @@
 
 首先查看“请先看我.txt”（可能是编码问题，上图显示乱码）这个文件，这里介绍了每一个文件夹的功能与作用。
 
-![1500541524(1).jpg](https://github.com/ChaoZeyi/myWebsite/blob/master/pics/1500541524(1).jpg?raw=true)
+![1500542297(1).jpg](https://github.com/ChaoZeyi/myWebsite/blob/master/pics/1500542297(1).jpg?raw=true)
 
 我们需要关注的有两个目录：
 
 /htdocs：主文件夹，于是我们现在把WordPress解压在htdocs这个目录下，如下图：
 
-![1500541667(1).jpg](https://github.com/ChaoZeyi/myWebsite/blob/master/pics/1500541667(1).jpg?raw=true)
+![1500542370(1).jpg](https://github.com/ChaoZeyi/myWebsite/blob/master/pics/1500542370(1).jpg?raw=true)
 
 /myfolder：可以放一些隐藏文件，不会在网页上显示
 
 然后复制wp-config-sample.php文件，修改数据库信息，并重命名为wp-config.php
+
+![937490-92a1464b050956b7.png](https://github.com/ChaoZeyi/myWebsite/blob/master/pics/937490-92a1464b050956b7.png?raw=true)
+
+![TB1BZr0KVXXXXawapXXXXXXXXXX.png](https://github.com/ChaoZeyi/myWebsite/blob/master/pics/TB1BZr0KVXXXXawapXXXXXXXXXX.png?raw=true)
+
+**需要特别注意的是：mysql主机地址不是localhost，而是主机/数据库信息上显示的地址**
+
+还有就是WordPress要求PHP版本为5.2.4以上，所以我们需要调整服务器默认的PHP版本
+
+还可以修改默认主页设置
+
+至此，个人主页的框架算是搭好了，直接在网页上访问即可
+
+第一次登录，需要填写一个WordPress基本信息，记住用户名和密码，然后看到如下欢迎页面：
 
 
 
