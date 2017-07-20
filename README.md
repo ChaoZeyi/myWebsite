@@ -30,6 +30,28 @@
 
 ### 搭建WordPress
 
+很良心的是，在等待审核的过程中，阿里云赠送了一个临时的已备案域名，可供我们调试网站程序。
+
+![1500539331(1).jpg](https://github.com/ChaoZeyi/myWebsite/blob/master/pics/1500539331(1).jpg?raw=true)
+
+在电脑地址栏输入ftp://主机地址，按回车，需要输入ftp登录名与密码（可以在主机站点信息中找到），查看我们服务器所有的文件：
+
+![1500540011(1).jpg](https://github.com/ChaoZeyi/myWebsite/blob/master/pics/1500540011(1).jpg?raw=true)
+
+首先查看“请先看我.txt”（可能是编码问题，上图显示乱码）这个文件，这里介绍了每一个文件夹的功能与作用。
+
+![1500541524(1).jpg](https://github.com/ChaoZeyi/myWebsite/blob/master/pics/1500541524(1).jpg?raw=true)
+
+我们需要关注的有两个目录：
+
+/htdocs：主文件夹，于是我们现在把WordPress解压在htdocs这个目录下，如下图：
+
+![1500541667(1).jpg](https://github.com/ChaoZeyi/myWebsite/blob/master/pics/1500541667(1).jpg?raw=true)
+
+/myfolder：可以放一些隐藏文件，不会在网页上显示
+
+然后复制wp-config-sample.php文件，修改数据库信息，并重命名为wp-config.php
+
 
 
 ### FAQ
