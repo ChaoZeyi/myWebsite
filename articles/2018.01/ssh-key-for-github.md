@@ -28,7 +28,7 @@ ssh-keygen -t rsa -C "youremail@example.com"
 
 然后一路回车
 
-![ssh-key](https://github.com/ChaoZeyi/myWebsite/blob/master/pics/2018.01/ssh-key.jpg?raw=True)
+![ssh-key](https://github.com/ChaoZeyi/myWebsite/blob/master/articlePics/2018.01/ssh-key.jpg?raw=True)
 
 到这一步，你的密钥就生成好了。
 
@@ -38,6 +38,6 @@ ssh-keygen -t rsa -C "youremail@example.com"
 
 打开github的Settings界面，添加公钥。
 
-![](https://github.com/ChaoZeyi/myWebsite/blob/master/pics/2018.01/add-key.jpg?raw=true)
+![](https://github.com/ChaoZeyi/myWebsite/blob/master/articlePics/2018.01/add-key.jpg?raw=true)
 
 至此，添加成功，可以成功访问github上的远程仓库了。
